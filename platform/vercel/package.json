@@ -8,11 +8,19 @@
     "deploy": "vercel deploy"
   },
   "dependencies": {
-    "deeplx-serverless": "github:lete114/deeplx-serverless#v0.0.5"
+    "deeplx-serverless": "github:ike-lee-820/deeplx#main"
   },
   "devDependencies": {
     "@types/node": "^24.0.10",
     "@vercel/node": "^5.3.2",
     "vercel": "^44.2.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "simple-git-hooks",
+      "workerd",
+      "deeplx-serverless"
+    ]
   }
 }
