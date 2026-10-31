@@ -16,3 +16,4 @@ onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
   - workerd
+  - "deeplx-serverless"
