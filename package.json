@@ -28,8 +28,7 @@
   "types": "./packages/core/dist/index.d.mts",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prepare": "simple-git-hooks"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "body-data": "^2.0.4",
