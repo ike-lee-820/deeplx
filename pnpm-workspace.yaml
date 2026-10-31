@@ -17,3 +17,6 @@ onlyBuiltDependencies:
   - simple-git-hooks
   - workerd
   - "deeplx-serverless"
+
+allowBuilds:
+  deeplx-serverless: true
